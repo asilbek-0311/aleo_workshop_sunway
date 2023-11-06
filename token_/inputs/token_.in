@@ -1,0 +1,21 @@
+// The program input for token_/src/main.leo
+
+[mint_private]
+amount: u64 = 100u64;
+
+[mint_public]
+amount: u64 = 100u64;
+
+[transfer_private]
+amount: u64 = 50u64;
+receiver: address = aleo1r03kpmsu482n0v78m07dxp08p0wjk6nmlcfrsvkfja8xk6l9svxs0t66d0;
+input: Token = Token{  
+    owner: aleo1r03kpmsu482n0v78m07dxp08p0wjk6nmlcfrsvkfja8xk6l9svxs0t66d0,
+    amount: 100u64,
+    _nonce: 2671181605522870191334099392630482804545974251268063606680191180130694274931group
+    };
+
+[transfer_public_to_private]
+amount: u64 = 100u64;
+receiver: address = aleo1r03kpmsu482n0v78m07dxp08p0wjk6nmlcfrsvkfja8xk6l9svxs0t66d0;
+ 
